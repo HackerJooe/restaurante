@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-BR">
+        <meta charset="UTF-8">
+        
+        <head>
+            <title>Formulário de Inscrição</title>
+            <link rel="stylesheet" type="text/css" href="./css/incris.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       
+        </head>
+        <body>
+            <form>
+                <div class="form-insc" id="container1">
+                    <fieldset>
+                        <legend>Formulário de Cadastro (Informações Pessoais)</legend>
+                        <label for="name">Nome: </label>
+                        <input id="name" type="text" placeholder="Nome Completo">
+                        <br>
+                        <label for="idade">Idade: </label>
+                        <input id="idade" type="text" placeholder="Idade">
+                        <br>
+                        <label for="cpf">CPF: </label>
+                        <input id="cpf" type="" placeholder="CPF">
+                        <br>
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" placeholder="Email">
+                        <br>
+                        <label for="telefone">Telefone/Celular: </label>
+                        <input id="telefone" type="tel" placeholder="Telefone ou Celular(Obrigatório DDD)">
+                        <br>
+                        
+                        <label for="nascimento">Nascimento: </label>
+                        <input id="nascimento" type="date" placeholder="Data de Nascimento">
+                        <br>
+                        <label for="sexualidade">Sexualidade: </label>
+                        <select id="sexualidade" size="1"> <!-- Caixa de Opções já pré determinadas, so precisando serem selecionadas-->
+                            <option value="masculino">Masculino</option> <!-- Opções que ficam na caixa central Select-->
+                            <option value="feminino">Feminino</option>
+                            <option value="transgenero">Transgênero</option>
+                            <option value="genero-neutro">Gênero Neutro</option>
+                            <option value="agenero">Agênero</option>
+                            <option value="nao-binario">Não Binário</option>
+                            <option value="pangenero">Pangênero</option>
+                        </select>
+                        <div class="check-email" id="email-check">
+                            <label for="mensagens-receber">Deseja receber email's com nossas promoções semanais?</label>
+                            <br>
+                            <label for="sss">SIM</label>
+                            <input  name="sss" id="mensagens-receber" type="checkbox" value="true">
+                            <label for="nnn">NÃO</label>
+                            <input for="nnn" id="mensagens-receber" type="checkbox" value="False">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados Cadastrais de Entrega</legend>
+                        <label for="telefone">Telefone/Celular: </label>
+                        <input id="telefone" type="tel" placeholder="Tel/Cel(Obrigatório DDD-sem espaço)">
+                        <br>
+                        <label for="endereco">Endereço para Entregas: </label>
+                        <input id="endereco" type="text" placeholder="Endereço para Entregas">
+                        <br>
+                        <label for="numero-endereco">N°</label>
+                        <input id="numero-endereco" type="text" placeholder="Numero do Local">
+                        <br>
+                        <label for="complemento-endereco">Complemento:</label>
+                        <input id="complemento-endereco" type="text" placeholder="Complemento de Endereço">
+                        <br>       
+                    </fieldset>
+                        <div class="button-button">
+                            <button><li><a href="C:/Users/Deisi/Projeto_Site/index.html">De volta a Home</a></li></button>
+                            <button class="envia" type="submit" onclick="myFunction()"><li><a href="C:/Users/Deisi/Projeto_Site/index.html">Concluir Cadastro</a></li></button>
+                            <br>
+                        </div>
+                </div>
+            </form>
+        </body>  
+</html>

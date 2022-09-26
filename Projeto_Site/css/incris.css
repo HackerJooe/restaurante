@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: url(../img/design/fundo3.jpg);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+legend{
+font-size: 30px;
+text-align: center;
+color: rgb(8, 0, 114);
+border-color: blue;
+margin: 10px;
+}
+#container1{
+width: 600px;
+background: rgba(0, 0, 0, 0.452);
+border-radius: 0 20%;
+box-shadow: 1px 2px 5px rgb(255, 111, 111), 3px 6px 12px rgb(255, 133, 133);
+padding: 50px 20px;
+}
+input{
+width: 100%;
+height: auto;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid #fff;
+color: rgb(255, 255, 255);
+
+}
+#container1 label{
+transform: translateY(18);
+top: 0;
+left: 0;
+color: #fff;
+}
+button{
+margin: 10px;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+border-radius: 10px 10px;
+padding: 5px;
+cursor: pointer;
+}
+#container1 input:focus{
+border-bottom: 3px solid yellow;
+box-shadow: 0 2px 0 0 yellowgreen;
+}
+#container1 input:focus + label{
+transform: translateY(-18) scale(.8);
+transition: .25s ease-in-out;
+font-weight: bold;
+color: blue;
+}
+fieldset{
+background: transparent;
+}
+input::placeholder{
+color: blue;
+text-emphasis-color: black;
+}
+#button-button{
+text-align: center;
+align-items: center;
+justify-content: center;
+}

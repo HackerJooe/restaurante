@@ -1,0 +1,209 @@
+html
+{
+scroll-behavior: smooth; /*rolagem suave com velocidade padrão - ccs puro */
+}	
+:target /* configuramos como será a chegada do link */
+{
+scroll-margin-top: 100px; /* espaçamento entre o inicio do browser e o local de chegada do link */ 
+}
+body{
+background-image: url(../img/design/cabecalho.jpg);
+width: 100%;
+}
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#cabecalho{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 220px;
+background-image: url(../img/design/fundo3.jpg);
+width: 100%;
+}
+nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+nav > a{
+text-decoration: none;
+font-weight: 800;
+font-size: 32px;
+}
+nav ul{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+list-style: none; 
+widht: 100%;
+}
+nav ul li{
+text-align: center;
+widht: 100%;
+}
+nav ul li a{
+display: inline-block;
+padding: 10px 0;
+widht: 100%;
+text-decoration: none;
+color: rgb(255,255,255);
+}
+
+#conteudo-cervejas{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo-cervejas2{
+background: rgba(0, 0, 0, 0.572);
+}
+#confirma600ml{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo-latas{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo-latas2{
+background: rgba(0, 0, 0, 0.572);
+}
+#confirma-lata{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo-nordestina{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo-nordeste{
+background: rgba(0, 0, 0, 0.572);
+}
+#confirma-nordeste{
+background: rgba(0, 0, 0, 0.572);
+}
+#comida-sulista{
+background: rgba(0, 0, 0, 0.572);
+}
+#conteudo2{
+background: rgba(0, 0, 0, 0.572);
+}
+#confirma-sulista{
+background: rgba(0, 0, 0, 0.572);
+}
+.titulos{
+color: aliceblue;
+font-size: 25px;
+text-align: center;
+}
+#conteudo-cervejas{
+display: inline-flex;
+}
+#conteudo-latas{
+display: inline-flex;
+}
+#conteudo-nordestina{
+display: inline-flex;
+}
+#tabela600 tr{
+background-color: antiquewhite;
+}
+.txt600{
+background-color: aliceblue;    
+}
+b{
+color: aliceblue;    
+}
+#tabela-lata tr{
+background-color: antiquewhite;
+}
+.txt350{
+background-color: aliceblue;
+}
+#confirma-lata{
+display: inline-flex;
+}
+#redes-sociais{
+display: inline-flex;
+}
+#redes-sociais ul{
+transform: translateX(400%);
+display: inline-flex;
+list-style: none;
+float: right;
+}
+
+#laterall{
+display: inline-flex;
+list-style: none;
+text-transform: uppercase;
+padding-left: 25%;
+padding-right: 25%;
+position: fixed;
+text-align: center;
+background-color: black;
+}
+
+#logotipo{
+padding: 30px;
+display: inline-flex;
+float: left;
+height: 180px;
+width: 220px;
+}
+#tabelanordeste tr{
+background-color: antiquewhite;
+}
+#confirma-nordeste{
+display: inline-flex;
+}
+#comida-sulista{
+display: inline-flex;
+}
+.txt-nord{
+background-color: aliceblue;
+}
+.txt-sul{
+background-color: aliceblue;
+}
+#confirma-sulista{
+display: inline-flex;
+}
+a{
+text-decoration: none;
+color: rgb(251, 255, 0);
+padding-right: 5px;
+list-style: none;
+}
+#button-envia{
+display: inline-flex;
+}
+button{
+display: inline-flex;
+}
+#laterall{
+top: 0;
+left: 0;
+}
+details{
+color: aliceblue;
+}
+summary{
+font-style: bold;
+}
+marquee{
+width: 70%;
+font-size: 30px;
+color: gold;
+font-style: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: lighter;
+transform: translateY(-450%);
+}
+figcaption{
+color: aliceblue;
+text-align: center;
+text-transform: uppercase;
+font-style: bold;
+text-decoration: underline yellow;
+}
+

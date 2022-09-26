@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth; /*rolagem suave de pagina*/
+}
+:target{/*chegada de links*/
+    scroll-margin-top: 100px; /*espaçamento entre o inicio do browser e o local do link*/
+}
+
+body{/*corpo do site*/
+    width: 100%;
+    background-image: url(../img/design/cabecalho.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+h2{ /*titulos produtos*/
+    font-family:  'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 1, 70);
+}
+
+/*navegação*/
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #191970;
+}
+
+nav > a{ /* regulagem links */
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 32px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 0;
+        width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+nav ul li a{
+            
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            text-decoration: none;
+            color: #191970;
+}
+
+header{ /*cabecalho responsivo*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(../img/design/fundo2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #191970;
+            text-align: center;
+            padding: 20px;
+}
+marquee{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#conteudo-cervejas{
+                display: flex;
+                align-items: center;
+                                
+}
+#conteudo-latas{
+                display: flex;
+                text-align: center;
+                align-items: center;                    
+}
+#conteudo-nordestina{
+                    display: flex;  
+                    text-align: center; 
+                    align-items: center;
+}
+#conteudo-sulista{
+                    display: flex;  
+                    text-align: center; 
+                    align-items: center;
+}
+aside li{
+                list-style: none;
+}
+.botao{
+                text-decoration: none;
+                text-align: center;
+                display: block;
+                background: rgba(0, 0, 0, 0.572);
+                
+
+}
+img{
+width: 100px;
+height: 150px;
+max-width: 100px;
+min-width: none;
+max-height: 150px;
+min-height: none;
+}
+/*
+aside{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            background-color: #191970;
+            color: #ffffff;
+            list-style: none;
+}
+aside li a{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                color: azure;
+                text-decoration: none;
+}
+*/
+
+/* Responsividade */
+
+@media screen and (min-width: 768px) {
+
+    /*navegacao*/
+
+    nav {
+           flex-direction: row;
+           justify-content: space-around;
+           
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+        
+    }
+
+    /*cabecalho*/
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    aside{
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    img{
+        width: 20%;
+    }
+}
+    
